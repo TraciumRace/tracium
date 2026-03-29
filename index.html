@@ -23,8 +23,7 @@
 <iframe id="sheetFrame"></iframe>
 
 <script>
-  const url = "https://docs.google.com/spreadsheets/d/e/15pksFO_n5NOwljJaQX8ZPx6Mfzkb_-FIe9jmQJDkoxQ/pubhtml?gid=0&single=true";
-
+  const url = "https://docs.google.com/spreadsheets/d/e/15pksFO_n5NOwljJaQX8ZPx6Mfzkb_-FIe9jmQJDkoxQ/pub?output=html&gid=0&single=true";
   function refreshSheet() {
     const iframe = document.getElementById("sheetFrame");
     iframe.src = url + "&cache=" + new Date().getTime();
